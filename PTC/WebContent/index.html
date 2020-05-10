@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<style>
+	html, body {
+		margin: 0px;
+		padding: 0px;
+		scroll-behavior: smooth;
+	}
+	.pagewrap {
+		min-width: 1445px;
+		width: 100%;
+	}
+	#banner {
+	    width: 100%;
+	    height: 10%;
+	    background-color: white;
+	}
+	#logo {
+	    width: 27%;
+	    height: 42%;
+	    margin-left: 2.5%;
+	    margin-top: 1.5%;
+	    text-align: center;
+	    display: inline-block;
+	    padding-top: 16px;
+	}
+	#optionbox {
+	    width: 50%;
+	    height: 37%;
+	    display: inline-block;
+	    text-align: center;
+	    margin-left: 17%;
+	    padding: 6px;
+	    transform: translate(0px, -20px);
+	}
+	.option {
+		margin-top: 55px;
+	    padding-right: 75px;
+	    font-size: 24px;
+	    font-family: Arial;
+	    color: Gray;
+	    display: inline-block;
+	    text-align: center;
+	}
+	.logo {
+	    height: 100%;
+	    width: 62%;
+	}
+	#city {
+	    height: 70%;
+	    width: 100%;
+	    display: inline-block;
+	}
+	.header {
+		font-weight: bold;
+	    font-family: Arial;
+	    font-size: 40px;
+	    text-align: center;
+	    padding-bottom: 75px;
+	    color: #004986;
+	}
+	#servicecont {
+	    height: 400px;
+	    width: 90%;
+	    padding: 12px;
+	    margin-left: 4.3%;
+	    margin-bottom: 20%;
+	    margin-top: 15%;
+	    text-align: center;
+	}
+	.service {
+	    margin-top: 30px;
+	    display: inline-block;
+	    width: 27%;
+	    height: 75%;
+	    border: 1.5px solid black;
+	    vertical-align: top;
+	    padding: 10px;
+	    font-size: 24px;
+	    text-align: center;
+	}
+	#citycont {
+		top: 50px;
+		margin-bottom: 175px;
+	    position: relative;
+	    text-align: center;
+	    height: 70%;
+	    width: 100%;
+	}
+	.centered {
+	    color: #004986;
+	    position: absolute;
+  	    top: 20%;
+        left: 50%;
+  	    transform: translate(-50%, -90%);
+	    font-family: Arial;
+	    font-size: 40px;
+	}
+	.content {
+	    transform: translate(0%, 150%);
+	    font-size: 24px;
+	    top: 50%;
+	    left: 50%;
+	}
+	img {
+	    height: 100%;
+	    width: 100%;
+	}
+	a {
+	    text-decoration: none;
+	    color: #004986;
+	}
+	a:hover {
+	    text-decoration: underline;
+	    text-shadow: 0 0 1px black;
+	}	
+	.circle {
+		border-radius: 50%;
+		border: 10px solid white;
+		background-color: #004986;
+		color: white;
+		height: 125px;
+		width: 125px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 100px;
+		transform: translate(0%, -60%);
+	}
+	.clean {
+		height: 55%;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		top: 9px;
+		position: relative;
+	}
+	h3 {
+		position: relative;
+		top: -30%;
+		color: #004986;
+		font-family: Arial;
+	}
+	.cardpara {
+		position: relative;
+		top: -30%;
+		font-family: Arial;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	input[type="text"], input[type="email"], textarea {
+		width: 65%;
+		padding: 12px;
+		border: 2px solid #004986;
+		margin-bottom: 10px;
+	}
+	input[type="submit"]{
+		background-color: #004986;
+		color: white;
+		border: 2px solid white;
+		padding: 6px;
+		width: 137px;
+		height: 45px;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 17px;
+	}
+	input[type="submit"]:hover{
+		color: #004986;
+		background-color: white;
+	}
+	#contactcont {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	    height: 660px;
+	    text-align: center;
+	    transform: translate(0%, -2%);
+	    position: relative;
+	    background-color: #004986;
+	}
+	form {
+		position: relative;
+		bottom: 35px; 
+		padding: 10px;
+	}
+	
+</style>
+
+<html>
+<head>
+	<title>Pure Touch Cleaning Services</title>
+</head>
+  <body>
+    <div class="pagewrap">
+    <section id="banner">
+	    <section id="logo"> 
+		<img class="logo" src="pics/logo.png"> 
+	    </section> 
+
+	    <section id="optionbox">
+		<div class="option"><a href="#">Home</a></div> 
+		<div class="option"><a href="#servicecont">Services</a></div> 
+		<div class="option"><a href="#contactcont">Contact Us</a></div> 
+		<div class="option"><a href="#">Gallery</a></div> 
+	    </section>
+	</section>
+	<section id="citycont">
+	    <img src="pics/city.jpg">
+	    <div class="centered"><b>Our Mission</b></div>
+	    <div class="centered"><p class="content">At Pure Touch Cleaning Services, we work to provide our clients with a fast and efficient cleaning process. We work around-the-clock 24/7 to meet your needs.</p></div>
+	</section>
+	<section id="servicecont">
+		<div class="header">Our Services</div>
+	    <div class="service"><div class="circle"><div class="clean"><img src="pics/Icon1.png"></div></div>
+	    	<h3>Commercial</h3><p class="cardpara">Maintaining a business is demanding, let us help you make it shine.</p>
+	    </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <div class="service"><div class="circle"><div class="clean"><img src="pics/Icon2.png"></div></div>
+			<h3>Residential</h3><p class="cardpara">After a busy day at work, come back to a home in tip-top shape.</p>
+		</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <div class="service"><div class="circle"><div class="clean"><img src="pics/Icon3.png"></div></div>
+			<h3>Post-Construction</h3><p class="cardpara">When it comes to home improvements, we know it's going to get messy. </p>
+	    </div>
+	</section>
+	<section id="contactcont">
+		<div class="header" style="color: white">Contact Us</div>
+		<form action="emailserver" method="POST">
+			<p style="color: white; font-family:Arial; font-size:24px; font-weight:bold">Request Services &nbsp;&nbsp;|&nbsp;&nbsp; Get a Quote &nbsp;&nbsp;|&nbsp;&nbsp; Refer Someone</p> <br>
+			<input name="fname" type="text" placeholder="First Name" required></input> <br><br>
+			<input name="lname" type="text" placeholder="Last Name" required></input> <br><br>
+			<input name="email" type="email" placeholder="Email Address" required></input> <br><br>
+			<input name="phone" type="text" placeholder="Phone Number" required></input> <br><br>
+			<textarea name="summary" rows="2" placeholder="Describe the type of service you need"></textarea> <br><br><br>
+			<input type="submit" value="Submit"></input>
+		</form>
+	</section>
+	</div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
